@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* end reset */
+
+/* header */
+.chua_login a:hover,
+.da_login_admin a:hover,
+.da_login_customer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.connect {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.chua_login {
+    display: block;
+}
+
+.chua_login a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.da_login_admin {
+    display: block;
+}
+
+.da_login_admin a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.chua_login a,
+.da_login_admin a,
+.da_login_customer a {
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.da_login_admin:hover .info {
+    display: block;
+}
+
+.da_login_admin .info {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    background-color: #FF711B;
+    padding: 10px;
+    color: #FFf;
+    text-align: center;
+    box-shadow: 0 3px 4px #333;
+}
+
+.da_login_admin .info ul {
+    list-style: none;
+}
+
+.da_login_admin .info a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: unset;
+}
+
+/* login customer */
+.da_login_customer {
+    display: block;
+}
+
+.da_login_customer a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.da_login_customer:hover .info {
+    display: block;
+}
+
+.da_login_customer .info {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 65px;
+    background-color: #FF711B;
+    padding: 10px;
+    color: #FFf;
+    text-align: center;
+    box-shadow: 0 3px 4px #333;
+}
+
+.da_login_customer .info ul {
+    list-style: none;
+}
+
+.da_login_customer .info a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: unset;
+}
+
+.header-admin {
+    display: flex;
+    background-color: #FF711B;
+    align-items: center;
+}
+
+.admin-page {
+    display: flex;
+    flex: 1;
+}
+
+.admin-logo {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    display: flex;
+    align-items: center;
+}
+
+.admin-logo>img {
+    height: 60px;
+    width: auto;
+}
+
+.admin-logo>div {
+    margin-left: 0.9375rem;
+    border-left: 0.0625rem solid #fff;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    height: 1.875rem;
+    padding-left: 0.9375rem;
+    margin-bottom: 0.0625rem;
+    text-transform: capitalize;
+}
+
+.you-help a {
+    text-decoration: none;
+    color: #FFf;
+}
+
+.you-help a:hover {
+    opacity: 0.6;
+}
+
+/* end header */
+
+/* main */
+.table-right,
+.table-left {
+    float: left;
+    display: inline-block;
+    border: 1px solid #FF711B;
+    border-radius: 5px;
+    color: #FF711B;
+}
+
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FF711B;
+}
+
+.table-right .heading,
+.table-left .heading {
+    border: 1px solid #FF711B;
+    padding: 5px;
+}
+
+.table-left div {
+    border-bottom: 1px solid #FF711B;
+}
+
+.table-left div a {
+    display: block;
+    padding: 5px;
+}
+
+.table-right {
+    width: 1035px;
+    margin-left: 30px;
+    display: inline-block;
+    border: 1px solid #FF711B;
+    border-radius: 5px;
+}
+
+.table-right .line-3,
+.table-right .line-2 {
+    display: flex;
+}
+
+.table-right .line-3>div,
+.table-right .line-2>div {
+    padding: 5px;
+    text-align: center;
+}
+
+.verb {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.table-left div a,
+.verb a {
+    text-decoration: none;
+    color: #FF711B;
+}
+
+/* end main */
+
+/* hover */
+.table-left div:hover {
+    background-color: #FF711B;
+}
+
+.table-left div:hover a {
+    color: #fff;
+}
+
+/* end hover */
+
+.mb10 {
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border-color: #FF711B;
+    border-radius: 5px;
+}
+
+button {
+    padding: 3px 5px;
+    color: white;
+    background-color: #FF711B;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c24b02;
+}
+
+/* table*/
+
+table {
+    width: 100%;
+    color: white;
+    border-collapse: collapse;
+    padding-right: 20px;
+}
+
+table th {
+    background-color: #FF711B;
+    padding: 20px;
+}
+
+table td {
+    word-break: break-word;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #FF711B;
+    color: #FF711B;
+}
+
+.btsx {
+    background-color: #FF711B;
+    color: white;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.loaidm_addsp {
+    background-color: #FF711B;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none
+}
+
+.mota_addsp {
+    width: 95%;
+    padding: 10px;
+    border-color: #FF711B;
+    border-radius: 5px;
+}
+
+.error {
+    padding: 10px 20px 0;
+}
+
+.error span {
+    display: inline-block;
+    overflow: auto;
+    padding: 0 5px;
+    color: red;
+}
+
+.page-number ul li:hover a {
+    color: #FFf;
+    background-color: #FF711B;
+}
+
+.page-number {
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0 60px;
+    font-size: 1.25rem;
+}
+
+.page-number ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.page-number li {
+    /* background-color: #fff; */
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.page-number li a {
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000;
+}
+
+.page-number li strong {
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF711B;
+}
+
+#piechart {
+    display: flex;
+    justify-content: center;
+}
+

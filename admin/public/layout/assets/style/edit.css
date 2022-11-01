@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* end reset */
+
+/* header */
+.chua_login a:hover,
+.da_login_admin a:hover,
+.da_login_customer a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.connect {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.chua_login {
+    display: block;
+}
+
+.chua_login a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.da_login_admin {
+    display: block;
+}
+
+.da_login_admin a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.chua_login a,
+.da_login_admin a,
+.da_login_customer a {
+    text-decoration: none;
+    color: #fff;
+    vertical-align: middle;
+}
+
+.da_login_admin:hover .info {
+    display: block;
+}
+
+.da_login_admin .info {
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 55px;
+    background-color: #FF711B;
+    padding: 10px;
+    color: #FFf;
+    text-align: center;
+    box-shadow: 0 3px 4px #333;
+}
+
+.da_login_admin .info ul {
+    list-style: none;
+}
+
+.da_login_admin .info a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: unset;
+}
+
+/* login customer */
+.da_login_customer {
+    display: block;
+}
+
+.da_login_customer a {
+    padding: 4px;
+    font-size: 0.8125rem;
+}
+
+.da_login_customer:hover .info {
+    display: block;
+}
+
+.da_login_customer .info {
+    display: none;
+    position: absolute;
+    top: 35px;
+    right: 65px;
+    background-color: #FF711B;
+    padding: 10px;
+    color: #FFf;
+    text-align: center;
+    box-shadow: 0 3px 4px #333;
+}
+
+.da_login_customer .info ul {
+    list-style: none;
+}
+
+.da_login_customer .info a {
+    display: block;
+    padding: 5px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: unset;
+}
+
+.header-admin {
+    display: flex;
+    background-color: #FF711B;
+    align-items: center;
+}
+
+.admin-page {
+    display: flex;
+    flex: 1;
+}
+
+.admin-logo {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    display: flex;
+    align-items: center;
+}
+
+.admin-logo>img {
+    height: 60px;
+    width: auto;
+}
+
+.admin-logo>div {
+    margin-left: 0.9375rem;
+    border-left: 0.0625rem solid #fff;
+    color: #fff;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    height: 1.875rem;
+    padding-left: 0.9375rem;
+    margin-bottom: 0.0625rem;
+    text-transform: capitalize;
+}
+
+.you-help a {
+    text-decoration: none;
+    color: #FFf;
+}
+
+.you-help a:hover {
+    opacity: 0.6;
+}
+
+/* end header */
+
+/* main */
+main {
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.sign_up {
+    border: 2px solid #FF711B;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.sign_up h2 {
+    color: #FF711B;
+    margin-bottom: 20px;
+}
+
+table {
+    border-spacing: 10px;
+    margin: 0 auto;
+}
+
+td {
+    text-align: center;
+}
+
+td input {
+    float: right;
+    padding: 5px;
+    width: 340px;
+    outline: none;
+    border: 1px solid #FF711B;
+}
+
+.error {
+    width: 100%;
+}
+
+.error td {
+    padding: 12px;
+}
+
+.error span {
+    display: inline-block;
+    overflow: auto;
+    padding: 0 10px;
+    color: red;
+}
+
+textarea {
+    padding: 5px;
+    width: 340px;
+    outline: none;
+    border: 1px solid #FF711B;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #FF711B;
+    outline: none;
+    border: 0;
+    color: #FFf;
+    font-weight: 600;
+    cursor: pointer;
+}

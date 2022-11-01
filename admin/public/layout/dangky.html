@@ -1,0 +1,113 @@
+<!DOCTYPE html>        
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký</title>
+    <link rel="stylesheet" href="admin/public/layout/assets/style/sign_up.css">
+</head>
+
+<div class="header-admin">
+    <div class="container">
+        <div class="connect">
+
+            <div class="chua_login">
+                <a href="./user.php">Kênh người bán</a>
+            </div>
+
+
+
+            <div></div>
+
+            <div class="chua_login">
+                <a href="login_cus.php">Đăng nhập</a>
+                <div style="opacity: 0.5; margin: 0 5px;border-left: 2px solid #fff; display: inline"></div>
+                <a href="sign_up.php">Đăng ký</a>
+            </div>
+        </div>
+
+        <div style="display: flex; align-items: center; padding: 0 1.125rem 1.125rem;">
+            <div class="admin-page">
+                <a href="../index.php" class="admin-logo">
+                    <img src="public/layout/assets/img/logo3.jpg" alt="">
+
+                    <div class="page-name">
+                        Đăng ký
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="you-help">
+                <a href="">
+                    Bạn cần giúp đỡ?
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main>
+    <div class="container">
+        <div class="sign_up">
+            <h2>Đăng ký tài khoản mới</h2>
+
+            
+                <form action="" method="post">
+                    <div class="form">
+                        <div class="name">
+                            <label for="full_name">Họ tên:</label>
+                            <input type="text" name="full_name" id="full_name" placeholder="Họ tên...">
+                        </div>   
+
+                        <div class="user_name">
+                            <label for="user_name">Tên tài khoản:</label>
+                            <input type="text" name="user_name" id="user_name" placeholder="Tên tài khoản...">
+                        </div>  
+
+                        <div class="password">
+                            <label for="password">Mật khẩu:</label>
+                            <input type="text" name="password" id="password" placeholder="Mật khẩu...">
+                        </div>
+
+                        <div class="repass">
+                            <label for="repass">Nhập lại mật khẩu:</label>
+                            <input type="text" name="re_password" id="repass" placeholder="Nhập lại mật khẩu...">
+                        </div>
+
+                        <div class="sdt">
+                            <label for="sdt">Số điện thoại:</label>
+                            <input type="text" name="sdt" id="sdt" placeholder="Số điện thoại...">
+                        </div>
+
+                        <div class="avatar">
+                            <label for="avatar">Ảnh đại diện:</label>
+                            <img src="public/layout/assets/img/20670-acer-swift-3-sf313-53-518y-3.jpg" width="150px" alt="">
+                            <input type="file" name="avatar" id="avatar">
+                        </div>
+
+                        <div class="address">
+                            <label for="address">Địa chỉ:</label>
+                            <textarea name="address" id="address" cols="15" rows="5" placeholder="Địa chỉ..."></textarea>
+                        </div>
+
+                        <div class="button">
+                            <div class="err">
+                                <p>Thông tin còn thiếu hoặc chưa chính xác</p>
+                            </div>
+
+                            <button type="submit" name="btn_sign_up">Đăng ký</button>
+                            <div class="sign-in">
+                                Bạn đã có tài khoản? <a class="sign-up" href="login.php">Đăng nhập</a>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                        
+                    
+                </form>
+        </div>
+</main>
