@@ -28,7 +28,7 @@
 
                 <ul>
                     <?php foreach ($product_special as $key => $value) { ?>
-                        <li>
+                        <li style="margin: 0 10px 10px 10px">
                             <a href="detail_product.php?id_product=<?= $value->id ?>&id_cate=<?= $value->id_loai ?>">
                                 <div style="height: 25px;"></div>
                                 <div class="item-img">
