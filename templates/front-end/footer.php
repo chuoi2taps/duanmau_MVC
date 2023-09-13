@@ -76,7 +76,9 @@
                 <div class="store">
                     <hr>
 
-                    <p>Tùng và Vinh</p>
+                    <p>Copyright © 2022-2023 by <br>
+                    Nguyễn Nhật Thiên.
+                    All rights reserved.</p>
                 </div>
             </div>
         </div>
