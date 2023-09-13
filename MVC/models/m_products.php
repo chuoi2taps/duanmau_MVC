@@ -27,7 +27,7 @@ class m_product extends database
         return $this->loadAllRows();
     }
 
-    // lấy cmt của sản phẩm
+    // lấy comment của sản phẩm
     public function read_cmt_product ($id) {
         $sql = "SELECT cus.full_name, cus.hinh, cmt.noi_dung, cmt.ngay_bl, pro.id FROM customers cus 
         INNER JOIN comments cmt ON cus.id = cmt.id_kh 
